@@ -11,6 +11,7 @@
     <style>
         body{
             font-family: 'Open Sans', Helvetica, Arial, 'sans-serif';
+            padding-top:4em;
         }
         footer{
             margin: 1em 0;
@@ -27,5 +28,8 @@
     
     <script src="{{ asset('/js/jquery.min.js') }}"></script>
     <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
+
+    
+    @include('flashy::message')
 </body>
 </html> 
